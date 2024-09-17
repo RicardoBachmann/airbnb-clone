@@ -25,9 +25,19 @@ nav {
   }
 }
 
+h2 {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.gray {
+  color: #918e9b;
+}
+
 .hero--container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 
   img {
     max-width: 320px;
@@ -38,5 +48,36 @@ nav {
 
   p {
     font-size: 1rem;
+  }
+}
+
+.card--container {
+  max-width: 176px;
+  font-size: 0.8rem;
+
+  img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-weight: 100;
+  }
+
+  .cost {
+    font-weight: 600;
+  }
+}
+
+.card--stats {
+  display: flex;
+  align-items: baseline;
+  justify-items: center;
+  gap: 5px;
+
+  img {
+    height: 14px;
+    width: 14px;
   }
 }
