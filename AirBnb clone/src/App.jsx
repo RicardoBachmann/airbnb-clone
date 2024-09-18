@@ -11,7 +11,9 @@ function App() {
     return (
       <Card
         // Each child in a list should habe a unique "key" prop
+        // Use the "key" prop everytime with the .map method
         key={item.id}
+        item={item}
         img={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
